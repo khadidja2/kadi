@@ -15,6 +15,7 @@ body{
    font-size: sans-serif;
     
 }
+
 /*------------fond d'ecran---------*/
 #imageDufont{
     padding: 60px;
@@ -43,6 +44,27 @@ h3{
     font-size: 3em; /* la taille du text h3 */
     text-shadow: 1px 3px 2px black; /* pour faire de l'ombre sur le text de h3 */
 }
+/* ****************NAVBAR**************** */
+
+nav{
+    overflow: hidden;
+    background-color: #FFFAE1;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+
+}
+header a{
+    float: right;
+    font-size: 1.2em;
+    color: black;
+}
+header  a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+}
  /* **************PRESENTATION************* */
  #prestations{
     background-color:#FFFAE1; /*la couleur du font de la partie section(id=presentation)*/ 
@@ -57,14 +79,22 @@ h3{
   justify-content: space-between; /* la façon dont l'espace doit etre réparti si la ligne est pleine */ 
   padding: 30px 15%; /*ecart de haut et a droite */
 }
-.imagesPrestation h4{
+.imagesPrestation {
     font-family: "Dancin script",cursive;/* type de police */
     text-align: center;/* aligner au centre */
     font: size 1.8em;/* la taille du text h4 */
     margin: 15px;/*marge en haut entre les images*/
-    font-weight: 300;
+    font-weight: 300px;
    }
-.imagesPrestation img{
+   #prestations p{
+    background-color: #FFFAE1;
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    right: 100px;
+    
+  }
+imagesPrestation img{
    border-radius: 10px; /* pour faire la coubure de chaque coin*/
    box-shadow: 5px 5px 3px rgb(0,0,0,0.7); /*pour faire de l'ombre */ 
 }
@@ -141,3 +171,4 @@ h3{
      background-size:cover ;/* pour conserver la proportion de l'image du font d'ecran */
      height: 799px;/* la hauteur du font d'ecran */
  }
+ 
